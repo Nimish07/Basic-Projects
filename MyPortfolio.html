@@ -1,0 +1,107 @@
+<div id="app">
+    <header>
+      <h1>Welcome to my Portfolio!</h1>
+      <h2>NIMISH SHARMA</h2>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>An enthusiastic computer science fresher who is a self starter and capable of using technical skills for the betterment of organisation. Passionate about design and development and Proficient in HTML, CSS, JavaScript; plus modern libraries and frameworks.</p>
+    </section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <ul id="project-list">
+        <li>
+            <h3>Project 1</h3>
+            <p>Database of Sports Centre - Major Project: This Project is designed to keep the hold of sports equipments issued by the students.</p>
+            <a href="#">View Project</a>
+          </li>
+          <li>
+            <h3>Project 2</h3>
+            <p>A simple web application To-DO List to where one can add their daily tasks to keep the track of their day.</p>
+            <a href="#">View Project</a>
+          </li>
+          <li>
+            <h3>Project 3</h3>
+            <p>My own portfolio - ongoing project.</p>
+            <a href="#">View Project</a>
+          </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name...">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email...">
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Enter your message..."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+  <style>
+  #app {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: rgb(225, 203, 203);
+    color: rgb(186, 39, 39);
+    text-align: center;
+    padding: 32px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav {
+    margin-top: 16px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 16px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 32px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  #project-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #project-list li {
+    margin-bottom: 16px;
+  }
+  
+  form label {
+    display: block
+  }
+  </style>
